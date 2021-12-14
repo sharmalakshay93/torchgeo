@@ -243,7 +243,15 @@ class ChesapeakeDE(Chesapeake):
 
 
 class ChesapeakeMD(Chesapeake):
-    """This subset of the dataset contains data only for Maryland."""
+    """This subset of the dataset contains data only for Maryland.
+
+    .. note::
+
+       This dataset requires the following additional library to be installed:
+
+       * `zipfile-deflate64 <https://pypi.org/project/zipfile-deflate64/>`_ to extract
+         the proprietary deflate64 compressed zip file.
+    """
 
     base_folder = "MD"
     filename = "MD_STATEWIDE.tif"
@@ -252,7 +260,15 @@ class ChesapeakeMD(Chesapeake):
 
 
 class ChesapeakeNY(Chesapeake):
-    """This subset of the dataset contains data only for New York."""
+    """This subset of the dataset contains data only for New York.
+
+    .. note::
+
+       This dataset requires the following additional library to be installed:
+
+       * `zipfile-deflate64 <https://pypi.org/project/zipfile-deflate64/>`_ to extract
+         the proprietary deflate64 compressed zip file.
+    """
 
     base_folder = "NY"
     filename = "NY_STATEWIDE.tif"
@@ -270,7 +286,15 @@ class ChesapeakePA(Chesapeake):
 
 
 class ChesapeakeVA(Chesapeake):
-    """This subset of the dataset contains data only for Virginia."""
+    """This subset of the dataset contains data only for Virginia.
+
+    .. note::
+
+       This dataset requires the following additional library to be installed:
+
+       * `zipfile-deflate64 <https://pypi.org/project/zipfile-deflate64/>`_ to extract
+         the proprietary deflate64 compressed zip file.
+    """
 
     base_folder = "VA"
     filename = "CIC2014_VA_STATEWIDE.tif"

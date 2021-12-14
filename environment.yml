@@ -46,3 +46,4 @@ dependencies:
     - sphinx>=3
     - timm>=0.2.1
     - torchmetrics
+    - zipfile-deflate64
